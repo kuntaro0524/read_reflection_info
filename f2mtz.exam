@@ -1,0 +1,8 @@
+#!/bin/sh
+f2mtz HKLIN second.hkl HKLOUT ./second <<+
+CELL 64.9000   78.3200   38.7900   90.0000   90.0000   90.0000
+LABOUT H  K  L  F SIGF PHI
+CTYPE  H  H  H  F Q P
+FORMAT '(3F4.0,3F12.3)'
+SYMM 19
++
