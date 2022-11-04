@@ -36,5 +36,5 @@ for i_bin in binner.range_used():
     high = binner.bin_d_range(i_bin)[1]
 
     # mean value of the amplitude difference the designated shell
-    difff = flex.mean(sel1.data()-sel2.data()) / sel1.size()
+    difff = flex.mean(sel1.data()-sel2.data())
     print("%8.2f - %8.2f %12.5e" % (low, high, difff))
